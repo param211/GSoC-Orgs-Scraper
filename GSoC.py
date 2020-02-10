@@ -1,6 +1,6 @@
 #! python3
 # create speadsheet of gsoc organisations
-#from fake_useragent import UserAgent
+from fake_useragent import UserAgent
 import requests, bs4, openpyxl
 
 '''ua = UserAgent()
